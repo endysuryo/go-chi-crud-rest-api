@@ -7,9 +7,10 @@ COPY go.sum ./
 RUN go mod download
 
 COPY *.go ./
+COPY . ./
 
-RUN go build -o /go-chi
+RUN go build -o /go-chi-crud-rest-api
 
 EXPOSE 3000
 
-CMD [ "/go-chi" ]
+CMD [ "/go-chi-crud-rest-api" ]

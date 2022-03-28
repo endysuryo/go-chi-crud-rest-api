@@ -4,7 +4,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/go-chi-crud-rest-api/controllers"
+	"github.com/endysuryo/go-chi-crud-rest-api/controllers"
 
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"

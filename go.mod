@@ -1,4 +1,4 @@
-module github.com/go-chi-crud-rest-api
+module github.com/endysuryo/go-chi-crud-rest-api
 
 go 1.18
 
