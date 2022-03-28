@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"go-chi-crud-rest-api/interfaces"
+	"github.com/go-chi-crud-rest-api/interfaces"
 
 	"github.com/go-chi/chi/v5"
 )
